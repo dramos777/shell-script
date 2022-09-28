@@ -1,0 +1,18 @@
+#Debug utilizando bash é recomendado para códigos pequenos
+#A opção -x do bash exibe o passo a passo da execução das variáveis
+#A opção -v do bash exibe de forma verbose todo o código e a execução
+
+#Exemplo1 de utilização:
+bash -x meuscript.sh -s
+
+#Exemplo2 de utilização:
+bash -xv meuscript.sh -s -m
+
+#Descrição do comando:
+#bash         ~> comando
+#-x           ~> argumento do bash comando
+#-v           ~> argumento do bash comando
+#meuscript.sh ~> script criado por mim
+#-s           ~> argumento do scritp criado por mim
+#-m           ~> argumento do scritp criado por mim
+
